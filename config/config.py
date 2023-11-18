@@ -40,13 +40,13 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ZZZ7iZ/AlexaMusic",
+    "https://github.com/ZZZ7iZ/AlexaMusik",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/H_M_Dr/45")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/H_M_Dr")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/h_m_dr")
 MUST_JOIN = getenv("MUST_JOIN", None)
 
